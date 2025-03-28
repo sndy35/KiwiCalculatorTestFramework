@@ -1,0 +1,21 @@
+{
+  "name": "kiwisaver-testframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "ENV=test npx playwright test --grep @smoke",
+    "Regression": "ENV=test npx playwright test --grep @regression",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.11"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
