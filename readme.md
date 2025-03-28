@@ -6,13 +6,19 @@ This framwework is  data driven and built with playwright and Typescript. This R
 All the test data is added under tests/testdata which drive the tests
 
 # Run the tests
+
+Clone the repo.
+
+Run npm install 
+
 Command to run the smoke tests in headless mode is 'npm run smoke'.
+
 Command to run the regression tests in headless mode is 'npm run regression'.
 
-To Run in headful mode, add --headed at the end
+To Run in headful mode, add --headed at the end of the command
 
 # Generate Report
- To open the test report run npx plawyright show-report
+To open the test report run npx plawyright show-report
 
 
 
