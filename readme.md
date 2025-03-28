@@ -31,4 +31,4 @@ I have choosen functional testing approach over POM since this is not UI heavy w
 Since the validation page contain text, graph and some values, I have used visual regression testing to compare the screenshot for validation.
 We can add more validations on the exact numbers shown once we know the business logic.
 I have tagged tests with smoke and regression tags 
-I have configured 6 workers while running locally, since we have only 6 tests in total.
+I have tried 6 workers while running locally and i haven't observed any flakiness and hence set the workers to 6. As we add more tests, this number needs to be adjusted accordingly
