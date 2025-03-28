@@ -50,5 +50,9 @@ export async function validateProjection(page:any,contribution:string) {
     const className = await element.getAttribute("class")
     const y = await element.innerText()
     expect(className).toContain("kcYnVK")
+    await page.waitForTimeout(10000)
+    // await page.screenshot({ path: 'screenshot.png' });
+    await expect(page).toHaveScreenshot({fullPage:true});
+    
 
 }
